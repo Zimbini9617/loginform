@@ -45,7 +45,7 @@ button:hover {
 .cancelbutton {
   width: auto;
   padding: 1em 1.8em;
-  background-color: #ff0000;
+  background-color: #f00;
 }
 
 .container {
@@ -63,7 +63,7 @@ span.password {
     float: none;
   }
 
-  cancelbutton {
+  .cancelbutton {
     width: 100%;
   }
 }
