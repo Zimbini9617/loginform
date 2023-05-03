@@ -1,7 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+form {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 2em;
+  width: 300px;
+  margin: 0 auto;
+  font-family: monospace;
 }
 
 body {
@@ -23,4 +26,44 @@ input[type="email"] {
   display: inline-block;
   border: 1px #ccc;
   box-sizing: border-box;
+}
+
+button {
+  background-color: #006400;
+  color: #ccc;
+  padding: 1.4em 2em;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbutton {
+  width: auto;
+  padding: 1em 1.8em;
+  background-color: #ff0000;
+}
+
+.container {
+  padding: 1.6em;
+}
+
+span.password {
+  float: right;
+  padding-top: 1.6em;
+}
+
+@media screen and (max-width: 300px) {
+  span.password {
+    display: block;
+    float: none;
+  }
+
+  cancelbutton {
+    width: 100%;
+  }
 }
