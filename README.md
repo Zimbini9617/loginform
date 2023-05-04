@@ -10,7 +10,7 @@ Creating login form using html and css
 
 ## Live View
 
-[Login-Form]
+[Login-Form](https://gentle-liger-7e48d4.netlify.app/)
 
 ## Built With
 
